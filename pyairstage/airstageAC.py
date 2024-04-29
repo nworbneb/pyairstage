@@ -83,7 +83,7 @@ class AirstageAC:
             parameterName is ACParameter.INDOOR_TEMPERATURE
             or parameterName is ACParameter.OUTDOOR_TEMPERATURE
         ):
-            value = (int(value) - 5000) / 100
+            value = (int(value) - 4500) / 100
         return value
 
     def get_device_name(self) -> str:
